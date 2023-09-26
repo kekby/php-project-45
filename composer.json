@@ -1,0 +1,25 @@
+{
+    "name": "hexlet/code",
+    "autoload": {
+        "psr-4": {
+            "Hexlet\\Code\\": "src/"
+        },
+        "files": [
+            "src/Cli.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Bulat Gombotsyrenov",
+            "email": "bulawake@gmail.com"
+        }
+    ],
+    "license":  ["proprietary"],
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.20"
+    },
+    "description": "",
+    "bin": [
+        "bin/brain-games"
+    ]
+}
